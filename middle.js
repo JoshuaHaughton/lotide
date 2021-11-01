@@ -1,11 +1,3 @@
-const assertArraysEqual = (arr1, arr2) => {
-  eqArrays(arr1, arr2) === true ? console.log(`✅✅✅ Assertion Passed: ${arr1} === ${arr2}`) : console.log(`🛑🛑🛑 Assertion Failed: ${arr1} !== ${arr2}`);
-};
-
-const eqArrays = (arr1, arr2) => {
-  return arr1.join(' ') === arr2.join(' ') ? true : false;
-};
-
 const middle = arr => {
   let mid = Math.ceil(arr.length/2);
   let out = [];
@@ -21,6 +13,4 @@ const middle = arr => {
   return out;
 }
 
-assertArraysEqual(middle([1, 2, 3, 4, 5, 6, 7, 8]), [4, 5])
-
-assertArraysEqual(middle([1, 2]), [])
+module.exports = middle;
