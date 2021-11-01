@@ -1,6 +1,6 @@
 {
   "name": "@joshuahaughton/lotide",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A library of functions to make coding easier",
   "main": "assertArrayEqual.js",
   "directories": {
