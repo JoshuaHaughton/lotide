@@ -25,13 +25,4 @@ const letterPositions = str => {
   return out;
 };
 
-let expected = {
-  h: [0],
-  e: [1],
-  l: [2, 3],
-  o: [4]
-}
-
-assertArraysEqual(Object.values(letterPositions("hello")), Object.values(expected));
-
 module.exports = letterPositions;
