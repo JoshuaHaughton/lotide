@@ -33,3 +33,5 @@ let expected = {
 }
 
 assertArraysEqual(Object.values(letterPositions("hello")), Object.values(expected));
+
+module.exports = letterPositions;

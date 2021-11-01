@@ -26,3 +26,5 @@ const assertObjectsEqual = (obj1, obj2) => {
 
 assertObjectsEqual({a: 1}, {a: 1})
 assertObjectsEqual({a: 1}, {a: 2})
+
+module.exports = assertObjectsEqual;
